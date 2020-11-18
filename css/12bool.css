@@ -1,24 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.container{
-  max-width: 1170px;
-  margin: 0 auto;
-}
-.row::after{
-  content: '';
-  display: table;
-  clear: both;
-}
-.row{
-  height: 150px;
-}
-.row [class*="col-"]{
-  float: left;
-  height: 100%;
-}
+
 /* FRAMEWORK */
 .col-1{
   width: calc(100% / 12 * 1)
