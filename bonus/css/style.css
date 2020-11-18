@@ -1,0 +1,45 @@
+*{
+  font-family: 'Goldman', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: orange;
+  margin: 0 auto;
+}
+.row::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.row{
+  text-align: center;
+}
+.row [class*="col-"]{
+  float: left;
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
+  font-size: 50px;
+}
+.black{
+  background-color: black;
+}
+.green{
+  background-color: green;
+  border: 5px solid lightgreen;
+}
+.red{
+  background-color: red;
+}
+.red:hover{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZpJOigIgVEk3uON8_txJt5QkfvdgBEgeIg&usqp=CAU");
+  background-position:0;
+  background-size: cover;
+
+}
+.yellow{
+  background-color: yellow;
+  border: 5px solid gold;
+}
